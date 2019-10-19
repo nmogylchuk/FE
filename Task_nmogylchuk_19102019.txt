@@ -1,0 +1,2332 @@
+No.     Time           Source                Destination           Protocol Length Info
+     98 49.302690      172.20.10.3           128.119.245.12        HTTP     646    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 98: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:40:21.806803000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474421.806803000 seconds
+    [Time delta from previous captured frame: 0.001368000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 49.302690000 seconds]
+    Frame Number: 98
+    Frame Length: 646 bytes (5168 bits)
+    Capture Length: 646 bytes (5168 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 632
+    Identification: 0x892f (35119)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x43b5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51966, Dst Port: 80, Seq: 1, Ack: 1, Len: 592
+    Source Port: 51966
+    Destination Port: 80
+    [Stream index: 6]
+    [TCP Segment Len: 592]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 593    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 514
+    [Calculated window size: 131584]
+    [Window size scaling factor: 256]
+    Checksum: 0x55e8 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.158214000 seconds]
+        [Bytes in flight: 592]
+        [Bytes sent since last PSH flag: 592]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.159582000 seconds]
+        [Time since previous frame in this TCP stream: 0.001368000 seconds]
+    TCP payload (592 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    If-None-Match: "2ca-5953d25d1970b"\r\n
+    If-Modified-Since: Sat, 19 Oct 2019 05:59:03 GMT\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    [HTTP request 1/2]
+    [Response in frame: 100]
+    [Next request in frame: 102]
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 49.467714      128.119.245.12        172.20.10.3           HTTP     294    HTTP/1.1 304 Not Modified 
+
+Frame 100: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:40:21.971827000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474421.971827000 seconds
+    [Time delta from previous captured frame: 0.000003000 seconds]
+    [Time delta from previous displayed frame: 0.165024000 seconds]
+    [Time since reference or first frame: 49.467714000 seconds]
+    Frame Number: 100
+    Frame Length: 294 bytes (2352 bits)
+    Capture Length: 294 bytes (2352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 280
+    Identification: 0x23a0 (9120)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 43
+    Protocol: TCP (6)
+    Header checksum: 0x3fa5 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51966, Seq: 1, Ack: 593, Len: 240
+    Source Port: 80
+    Destination Port: 51966
+    [Stream index: 6]
+    [TCP Segment Len: 240]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 241    (relative sequence number)]
+    Acknowledgment number: 593    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 238
+    [Calculated window size: 30464]
+    [Window size scaling factor: 128]
+    Checksum: 0x158e [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.158214000 seconds]
+        [Bytes in flight: 240]
+        [Bytes sent since last PSH flag: 240]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.324606000 seconds]
+        [Time since previous frame in this TCP stream: 0.000003000 seconds]
+    TCP payload (240 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 304 Not Modified\r\n
+    Date: Sat, 19 Oct 2019 08:40:20 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Connection: Keep-Alive\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    ETag: "2ca-5953d25d1970b"\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.165024000 seconds]
+    [Request in frame: 98]
+    [Next request in frame: 102]
+    [Next response in frame: 103]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 49.848106      172.20.10.3           128.119.245.12        HTTP     515    GET /favicon.ico HTTP/1.1 
+
+Frame 102: 515 bytes on wire (4120 bits), 515 bytes captured (4120 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:40:22.352219000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474422.352219000 seconds
+    [Time delta from previous captured frame: 0.338244000 seconds]
+    [Time delta from previous displayed frame: 0.380392000 seconds]
+    [Time since reference or first frame: 49.848106000 seconds]
+    Frame Number: 102
+    Frame Length: 515 bytes (4120 bits)
+    Capture Length: 515 bytes (4120 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 501
+    Identification: 0x8931 (35121)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x4436 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51966, Dst Port: 80, Seq: 593, Ack: 241, Len: 461
+    Source Port: 51966
+    Destination Port: 80
+    [Stream index: 6]
+    [TCP Segment Len: 461]
+    Sequence number: 593    (relative sequence number)
+    [Next sequence number: 1054    (relative sequence number)]
+    Acknowledgment number: 241    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x43a6 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.158214000 seconds]
+        [Bytes in flight: 461]
+        [Bytes sent since last PSH flag: 461]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.704998000 seconds]
+        [Time since previous frame in this TCP stream: 0.338244000 seconds]
+    TCP payload (461 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    [HTTP request 2/2]
+    [Prev request in frame: 98]
+    [Response in frame: 103]
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 50.043670      128.119.245.12        172.20.10.3           HTTP     559    HTTP/1.1 302 Found  (text/html)
+
+Frame 103: 559 bytes on wire (4472 bits), 559 bytes captured (4472 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:40:22.547783000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474422.547783000 seconds
+    [Time delta from previous captured frame: 0.195564000 seconds]
+    [Time delta from previous displayed frame: 0.195564000 seconds]
+    [Time since reference or first frame: 50.043670000 seconds]
+    Frame Number: 103
+    Frame Length: 559 bytes (4472 bits)
+    Capture Length: 559 bytes (4472 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 545
+    Identification: 0x23a1 (9121)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 43
+    Protocol: TCP (6)
+    Header checksum: 0x3e9b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51966, Seq: 241, Ack: 1054, Len: 505
+    Source Port: 80
+    Destination Port: 51966
+    [Stream index: 6]
+    [TCP Segment Len: 505]
+    Sequence number: 241    (relative sequence number)
+    [Next sequence number: 747    (relative sequence number)]
+    Acknowledgment number: 1054    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x019 (FIN, PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+        [TCP Flags: ·······AP··F]
+    Window size value: 247
+    [Calculated window size: 31616]
+    [Window size scaling factor: 128]
+    Checksum: 0x9789 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 102]
+        [The RTT to ACK the segment was: 0.195564000 seconds]
+        [iRTT: 0.158214000 seconds]
+        [Bytes in flight: 506]
+        [Bytes sent since last PSH flag: 505]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.900562000 seconds]
+        [Time since previous frame in this TCP stream: 0.195564000 seconds]
+    TCP payload (505 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 302 Found\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    Content-Length: 248\r\n
+        [Content length: 248]
+    Location: http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico\r\n
+    Cache-Control: no-cache\r\n
+    Connection: Close\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.195564000 seconds]
+    [Prev request in frame: 98]
+    [Prev response in frame: 100]
+    [Request in frame: 102]
+    [Request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 248 bytes
+Line-based text data: text/html (1 lines)
+     [truncated]<html><head><title>302 Found</title></head><body><h1>302 Found</h1><p>The document has moved <a href="http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico">here
+
+No.     Time           Source                Destination           Protocol Length Info
+    259 121.206084     23.8.10.249           172.20.10.3           HTTP/XML 343    [TCP ACKed unseen segment] HTTP/1.1 200 OK 
+
+Frame 259: 343 bytes on wire (2744 bits), 343 bytes captured (2744 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:41:33.710197000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474493.710197000 seconds
+    [Time delta from previous captured frame: 0.000002000 seconds]
+    [Time delta from previous displayed frame: 71.162414000 seconds]
+    [Time since reference or first frame: 121.206084000 seconds]
+    Frame Number: 259
+    Frame Length: 343 bytes (2744 bits)
+    Capture Length: 343 bytes (2744 bits)
+    [Frame is marked: True]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:xml]
+    [Coloring Rule Name: Bad TCP]
+    [Coloring Rule String: tcp.analysis.flags && !tcp.analysis.window_update]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 23.8.10.249, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 329
+    Identification: 0xfe17 (65047)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 58
+    Protocol: TCP (6)
+    Header checksum: 0xa97f [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 23.8.10.249
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51970, Seq: 1401, Ack: 218, Len: 289
+    Source Port: 80
+    Destination Port: 51970
+    [Stream index: 10]
+    [TCP Segment Len: 289]
+    Sequence number: 1401    (relative sequence number)
+    [Next sequence number: 1690    (relative sequence number)]
+    Acknowledgment number: 218    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0xe7a0 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.052274000 seconds]
+        [Bytes in flight: 1689]
+        [Bytes sent since last PSH flag: 1689]
+        [TCP Analysis Flags]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.109187000 seconds]
+        [Time since previous frame in this TCP stream: 0.000002000 seconds]
+    TCP payload (289 bytes)
+    TCP segment data (289 bytes)
+[2 Reassembled TCP Segments (1689 bytes): #258(1400), #259(289)]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Content-Type: text/xml; charset=utf-8\r\n
+    ETag: "715690507"\r\n
+    Server: Microsoft-IIS/8.5\r\n
+    X-CS-DocVersions: |cms-amp-AAo37M|29|\r\n
+    X-CMS-ExecutionTimeInMilliseconds: 0\r\n
+    AppEx-Activity-Id: 95c5e218-4464-406a-b62b-b65ad6579a55\r\n
+    X-Trace-Context: {"ActivityId":"95c5e218-4464-406a-b62b-b65ad6579a55"}\r\n
+    X-AspNet-Version: 4.0.30319\r\n
+    X-Powered-By: ASP.NET\r\n
+    X-Diagnostic-S: Content_IN_19\r\n
+    X-Diagnostic-DC: northeu\r\n
+    Cache-Control: public, max-age=65\r\n
+    Date: Sat, 19 Oct 2019 08:41:32 GMT\r\n
+    Content-Length: 1152\r\n
+        [Content length: 1152]
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/1]
+    File Data: 1152 bytes
+eXtensible Markup Language
+
+No.     Time           Source                Destination           Protocol Length Info
+   1078 493.735439     172.20.10.3           128.119.245.12        HTTP     646    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 1078: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:46.239552000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474866.239552000 seconds
+    [Time delta from previous captured frame: 0.001133000 seconds]
+    [Time delta from previous displayed frame: 372.529355000 seconds]
+    [Time since reference or first frame: 493.735439000 seconds]
+    Frame Number: 1078
+    Frame Length: 646 bytes (5168 bits)
+    Capture Length: 646 bytes (5168 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 632
+    Identification: 0x893a (35130)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x43aa [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51974, Dst Port: 80, Seq: 1, Ack: 1, Len: 592
+    Source Port: 51974
+    Destination Port: 80
+    [Stream index: 12]
+    [TCP Segment Len: 592]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 593    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 514
+    [Calculated window size: 131584]
+    [Window size scaling factor: 256]
+    Checksum: 0x39ae [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.202892000 seconds]
+        [Bytes in flight: 592]
+        [Bytes sent since last PSH flag: 592]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.204303000 seconds]
+        [Time since previous frame in this TCP stream: 0.001411000 seconds]
+    TCP payload (592 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    If-None-Match: "2ca-5953d25d1970b"\r\n
+    If-Modified-Since: Sat, 19 Oct 2019 05:59:03 GMT\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    [HTTP request 1/2]
+    [Response in frame: 1080]
+    [Next request in frame: 1082]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1080 493.895841     128.119.245.12        172.20.10.3           HTTP     294    HTTP/1.1 304 Not Modified 
+
+Frame 1080: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:46.399954000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474866.399954000 seconds
+    [Time delta from previous captured frame: 0.005347000 seconds]
+    [Time delta from previous displayed frame: 0.160402000 seconds]
+    [Time since reference or first frame: 493.895841000 seconds]
+    Frame Number: 1080
+    Frame Length: 294 bytes (2352 bits)
+    Capture Length: 294 bytes (2352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 280
+    Identification: 0x7268 (29288)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 45
+    Protocol: TCP (6)
+    Header checksum: 0xeedc [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51974, Seq: 1, Ack: 593, Len: 240
+    Source Port: 80
+    Destination Port: 51974
+    [Stream index: 12]
+    [TCP Segment Len: 240]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 241    (relative sequence number)]
+    Acknowledgment number: 593    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 238
+    [Calculated window size: 30464]
+    [Window size scaling factor: 128]
+    Checksum: 0xf04e [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.202892000 seconds]
+        [Bytes in flight: 240]
+        [Bytes sent since last PSH flag: 240]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.364705000 seconds]
+        [Time since previous frame in this TCP stream: 0.005347000 seconds]
+    TCP payload (240 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 304 Not Modified\r\n
+    Date: Sat, 19 Oct 2019 08:47:45 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Connection: Keep-Alive\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    ETag: "2ca-5953d25d1970b"\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.160402000 seconds]
+    [Request in frame: 1078]
+    [Next request in frame: 1082]
+    [Next response in frame: 1083]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1082 494.334222     172.20.10.3           128.119.245.12        HTTP     515    GET /favicon.ico HTTP/1.1 
+
+Frame 1082: 515 bytes on wire (4120 bits), 515 bytes captured (4120 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:46.838335000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474866.838335000 seconds
+    [Time delta from previous captured frame: 0.397358000 seconds]
+    [Time delta from previous displayed frame: 0.438381000 seconds]
+    [Time since reference or first frame: 494.334222000 seconds]
+    Frame Number: 1082
+    Frame Length: 515 bytes (4120 bits)
+    Capture Length: 515 bytes (4120 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 501
+    Identification: 0x893c (35132)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x442b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51974, Dst Port: 80, Seq: 593, Ack: 241, Len: 461
+    Source Port: 51974
+    Destination Port: 80
+    [Stream index: 12]
+    [TCP Segment Len: 461]
+    Sequence number: 593    (relative sequence number)
+    [Next sequence number: 1054    (relative sequence number)]
+    Acknowledgment number: 241    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x276c [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.202892000 seconds]
+        [Bytes in flight: 461]
+        [Bytes sent since last PSH flag: 461]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.803086000 seconds]
+        [Time since previous frame in this TCP stream: 0.397358000 seconds]
+    TCP payload (461 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    [HTTP request 2/2]
+    [Prev request in frame: 1078]
+    [Response in frame: 1083]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1083 494.598557     128.119.245.12        172.20.10.3           HTTP     559    HTTP/1.1 302 Found  (text/html)
+
+Frame 1083: 559 bytes on wire (4472 bits), 559 bytes captured (4472 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:47.102670000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474867.102670000 seconds
+    [Time delta from previous captured frame: 0.264335000 seconds]
+    [Time delta from previous displayed frame: 0.264335000 seconds]
+    [Time since reference or first frame: 494.598557000 seconds]
+    Frame Number: 1083
+    Frame Length: 559 bytes (4472 bits)
+    Capture Length: 559 bytes (4472 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 545
+    Identification: 0x7269 (29289)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 45
+    Protocol: TCP (6)
+    Header checksum: 0xedd2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51974, Seq: 241, Ack: 1054, Len: 505
+    Source Port: 80
+    Destination Port: 51974
+    [Stream index: 12]
+    [TCP Segment Len: 505]
+    Sequence number: 241    (relative sequence number)
+    [Next sequence number: 747    (relative sequence number)]
+    Acknowledgment number: 1054    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x019 (FIN, PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+        [TCP Flags: ·······AP··F]
+    Window size value: 247
+    [Calculated window size: 31616]
+    [Window size scaling factor: 128]
+    Checksum: 0x7b4f [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1082]
+        [The RTT to ACK the segment was: 0.264335000 seconds]
+        [iRTT: 0.202892000 seconds]
+        [Bytes in flight: 506]
+        [Bytes sent since last PSH flag: 505]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 1.067421000 seconds]
+        [Time since previous frame in this TCP stream: 0.264335000 seconds]
+    TCP payload (505 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 302 Found\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    Content-Length: 248\r\n
+        [Content length: 248]
+    Location: http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico\r\n
+    Cache-Control: no-cache\r\n
+    Connection: Close\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.264335000 seconds]
+    [Prev request in frame: 1078]
+    [Prev response in frame: 1080]
+    [Request in frame: 1082]
+    [Request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 248 bytes
+Line-based text data: text/html (1 lines)
+     [truncated]<html><head><title>302 Found</title></head><body><h1>302 Found</h1><p>The document has moved <a href="http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico">here
+
+No.     Time           Source                Destination           Protocol Length Info
+   1106 498.814556     172.20.10.3           128.119.245.12        HTTP     646    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 1106: 646 bytes on wire (5168 bits), 646 bytes captured (5168 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:51.318669000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474871.318669000 seconds
+    [Time delta from previous captured frame: 0.002437000 seconds]
+    [Time delta from previous displayed frame: 4.215999000 seconds]
+    [Time since reference or first frame: 498.814556000 seconds]
+    Frame Number: 1106
+    Frame Length: 646 bytes (5168 bits)
+    Capture Length: 646 bytes (5168 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 632
+    Identification: 0x8940 (35136)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x43a4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51973, Dst Port: 80, Seq: 1, Ack: 1, Len: 592
+    Source Port: 51973
+    Destination Port: 80
+    [Stream index: 11]
+    [TCP Segment Len: 592]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 593    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 514
+    [Calculated window size: 131584]
+    [Window size scaling factor: 256]
+    Checksum: 0x75d6 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.204333000 seconds]
+        [Bytes in flight: 592]
+        [Bytes sent since last PSH flag: 592]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 5.284583000 seconds]
+        [Time since previous frame in this TCP stream: 5.080250000 seconds]
+    TCP payload (592 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    If-None-Match: "2ca-5953d25d1970b"\r\n
+    If-Modified-Since: Sat, 19 Oct 2019 05:59:03 GMT\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    [HTTP request 1/2]
+    [Response in frame: 1110]
+    [Next request in frame: 1112]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1110 499.036961     128.119.245.12        172.20.10.3           HTTP     294    HTTP/1.1 304 Not Modified 
+
+Frame 1110: 294 bytes on wire (2352 bits), 294 bytes captured (2352 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:51.541074000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474871.541074000 seconds
+    [Time delta from previous captured frame: 0.000003000 seconds]
+    [Time delta from previous displayed frame: 0.222405000 seconds]
+    [Time since reference or first frame: 499.036961000 seconds]
+    Frame Number: 1110
+    Frame Length: 294 bytes (2352 bits)
+    Capture Length: 294 bytes (2352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 280
+    Identification: 0x144f (5199)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 43
+    Protocol: TCP (6)
+    Header checksum: 0x4ef6 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51973, Seq: 1, Ack: 593, Len: 240
+    Source Port: 80
+    Destination Port: 51973
+    [Stream index: 11]
+    [TCP Segment Len: 240]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 241    (relative sequence number)]
+    Acknowledgment number: 593    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 238
+    [Calculated window size: 30464]
+    [Window size scaling factor: 128]
+    Checksum: 0x2b7c [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.204333000 seconds]
+        [Bytes in flight: 240]
+        [Bytes sent since last PSH flag: 240]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 5.506988000 seconds]
+        [Time since previous frame in this TCP stream: 0.000003000 seconds]
+    TCP payload (240 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 304 Not Modified\r\n
+    Date: Sat, 19 Oct 2019 08:47:50 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Connection: Keep-Alive\r\n
+    Keep-Alive: timeout=5, max=100\r\n
+    ETag: "2ca-5953d25d1970b"\r\n
+    \r\n
+    [HTTP response 1/2]
+    [Time since request: 0.222405000 seconds]
+    [Request in frame: 1106]
+    [Next request in frame: 1112]
+    [Next response in frame: 1113]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1112 499.474089     172.20.10.3           128.119.245.12        HTTP     515    GET /favicon.ico HTTP/1.1 
+
+Frame 1112: 515 bytes on wire (4120 bits), 515 bytes captured (4120 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:51.978202000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474871.978202000 seconds
+    [Time delta from previous captured frame: 0.395977000 seconds]
+    [Time delta from previous displayed frame: 0.437128000 seconds]
+    [Time since reference or first frame: 499.474089000 seconds]
+    Frame Number: 1112
+    Frame Length: 515 bytes (4120 bits)
+    Capture Length: 515 bytes (4120 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 501
+    Identification: 0x8943 (35139)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x4424 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51973, Dst Port: 80, Seq: 593, Ack: 241, Len: 461
+    Source Port: 51973
+    Destination Port: 80
+    [Stream index: 11]
+    [TCP Segment Len: 461]
+    Sequence number: 593    (relative sequence number)
+    [Next sequence number: 1054    (relative sequence number)]
+    Acknowledgment number: 241    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 513
+    [Calculated window size: 131328]
+    [Window size scaling factor: 256]
+    Checksum: 0x6394 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.204333000 seconds]
+        [Bytes in flight: 461]
+        [Bytes sent since last PSH flag: 461]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 5.944116000 seconds]
+        [Time since previous frame in this TCP stream: 0.395977000 seconds]
+    TCP payload (461 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    [HTTP request 2/2]
+    [Prev request in frame: 1106]
+    [Response in frame: 1113]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1113 499.723106     128.119.245.12        172.20.10.3           HTTP     559    HTTP/1.1 302 Found  (text/html)
+
+Frame 1113: 559 bytes on wire (4472 bits), 559 bytes captured (4472 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:52.227219000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474872.227219000 seconds
+    [Time delta from previous captured frame: 0.249017000 seconds]
+    [Time delta from previous displayed frame: 0.249017000 seconds]
+    [Time since reference or first frame: 499.723106000 seconds]
+    Frame Number: 1113
+    Frame Length: 559 bytes (4472 bits)
+    Capture Length: 559 bytes (4472 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 545
+    Identification: 0x1450 (5200)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 43
+    Protocol: TCP (6)
+    Header checksum: 0x4dec [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51973, Seq: 241, Ack: 1054, Len: 505
+    Source Port: 80
+    Destination Port: 51973
+    [Stream index: 11]
+    [TCP Segment Len: 505]
+    Sequence number: 241    (relative sequence number)
+    [Next sequence number: 747    (relative sequence number)]
+    Acknowledgment number: 1054    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x019 (FIN, PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+        [TCP Flags: ·······AP··F]
+    Window size value: 247
+    [Calculated window size: 31616]
+    [Window size scaling factor: 128]
+    Checksum: 0xb777 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1112]
+        [The RTT to ACK the segment was: 0.249017000 seconds]
+        [iRTT: 0.204333000 seconds]
+        [Bytes in flight: 506]
+        [Bytes sent since last PSH flag: 505]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 6.193133000 seconds]
+        [Time since previous frame in this TCP stream: 0.249017000 seconds]
+    TCP payload (505 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 302 Found\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    Content-Length: 248\r\n
+        [Content length: 248]
+    Location: http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico\r\n
+    Cache-Control: no-cache\r\n
+    Connection: Close\r\n
+    \r\n
+    [HTTP response 2/2]
+    [Time since request: 0.249017000 seconds]
+    [Prev request in frame: 1106]
+    [Prev response in frame: 1110]
+    [Request in frame: 1112]
+    [Request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 248 bytes
+Line-based text data: text/html (1 lines)
+     [truncated]<html><head><title>302 Found</title></head><body><h1>302 Found</h1><p>The document has moved <a href="http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico">here
+
+No.     Time           Source                Destination           Protocol Length Info
+   1145 506.484300     172.20.10.3           128.119.245.12        HTTP     577    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1 
+
+Frame 1145: 577 bytes on wire (4616 bits), 577 bytes captured (4616 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:58.988413000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474878.988413000 seconds
+    [Time delta from previous captured frame: 0.003895000 seconds]
+    [Time delta from previous displayed frame: 6.761194000 seconds]
+    [Time since reference or first frame: 506.484300000 seconds]
+    Frame Number: 1145
+    Frame Length: 577 bytes (4616 bits)
+    Capture Length: 577 bytes (4616 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 563
+    Identification: 0x8947 (35143)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x43e2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51980, Dst Port: 80, Seq: 1, Ack: 1, Len: 523
+    Source Port: 51980
+    Destination Port: 80
+    [Stream index: 15]
+    [TCP Segment Len: 523]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 524    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 514
+    [Calculated window size: 131584]
+    [Window size scaling factor: 256]
+    Checksum: 0x7dda [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.198487000 seconds]
+        [Bytes in flight: 523]
+        [Bytes sent since last PSH flag: 523]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 7.672181000 seconds]
+        [Time since previous frame in this TCP stream: 7.473694000 seconds]
+    TCP payload (523 bytes)
+Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    [HTTP request 1/3]
+    [Response in frame: 1149]
+    [Next request in frame: 1151]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1149 506.675952     128.119.245.12        172.20.10.3           HTTP     1127   HTTP/1.1 200 OK  (text/html)
+
+Frame 1149: 1127 bytes on wire (9016 bits), 1127 bytes captured (9016 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:59.180065000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474879.180065000 seconds
+    [Time delta from previous captured frame: 0.004134000 seconds]
+    [Time delta from previous displayed frame: 0.191652000 seconds]
+    [Time since reference or first frame: 506.675952000 seconds]
+    Frame Number: 1149
+    Frame Length: 1127 bytes (9016 bits)
+    Capture Length: 1127 bytes (9016 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 1113
+    Identification: 0xebe1 (60385)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 43
+    Protocol: TCP (6)
+    Header checksum: 0x7422 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51980, Seq: 1, Ack: 524, Len: 1073
+    Source Port: 80
+    Destination Port: 51980
+    [Stream index: 15]
+    [TCP Segment Len: 1073]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 1074    (relative sequence number)]
+    Acknowledgment number: 524    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x4e85 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.198487000 seconds]
+        [Bytes in flight: 1073]
+        [Bytes sent since last PSH flag: 1073]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 7.863833000 seconds]
+        [Time since previous frame in this TCP stream: 0.005718000 seconds]
+    TCP payload (1073 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Sat, 19 Oct 2019 08:47:57 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Last-Modified: Sat, 19 Oct 2019 05:59:03 GMT\r\n
+    ETag: "2ca-5953d25d1970b"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 714\r\n
+        [Content length: 714]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    \r\n
+    [HTTP response 1/3]
+    [Time since request: 0.191652000 seconds]
+    [Request in frame: 1145]
+    [Next request in frame: 1151]
+    [Next response in frame: 1159]
+    [Request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    File Data: 714 bytes
+Line-based text data: text/html (17 lines)
+    <html>\n
+    <head>\n
+    <title>Lab2-4 file: Embedded URLs</title>\n
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">\n
+    </head>\n
+    \n
+    <body bgcolor="#FFFFFF" text="#000000">\n
+    \n
+    <p>\n
+    <img src="http://gaia.cs.umass.edu/pearson.png" WIDTH="70" HEIGHT="41" > </p>\n
+    <p>This little HTML file is being served by gaia.cs.umass.edu. \n
+    It contains two embedded images. <br> The image above, also served from the \n
+    gaia.cs.umass.edu web site, is the logo of our publisher, Pearson. <br>\n
+    The image of our 5th edition book cover below is stored at, and served from, the www server caite.cs.umass.edu:</p>\n
+    <p align="left"><img src="http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg" width="168" height="220"></p>\n
+    </body>\n
+    </html>\n
+
+No.     Time           Source                Destination           Protocol Length Info
+   1151 506.734076     172.20.10.3           128.119.245.12        HTTP     515    GET /pearson.png HTTP/1.1 
+
+Frame 1151: 515 bytes on wire (4120 bits), 515 bytes captured (4120 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:59.238189000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474879.238189000 seconds
+    [Time delta from previous captured frame: 0.016871000 seconds]
+    [Time delta from previous displayed frame: 0.058124000 seconds]
+    [Time since reference or first frame: 506.734076000 seconds]
+    Frame Number: 1151
+    Frame Length: 515 bytes (4120 bits)
+    Capture Length: 515 bytes (4120 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 501
+    Identification: 0x894a (35146)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x441d [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51980, Dst Port: 80, Seq: 524, Ack: 1074, Len: 461
+    Source Port: 51980
+    Destination Port: 80
+    [Stream index: 15]
+    [TCP Segment Len: 461]
+    Sequence number: 524    (relative sequence number)
+    [Next sequence number: 985    (relative sequence number)]
+    Acknowledgment number: 1074    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 509
+    [Calculated window size: 130304]
+    [Window size scaling factor: 256]
+    Checksum: 0x92b6 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.198487000 seconds]
+        [Bytes in flight: 461]
+        [Bytes sent since last PSH flag: 461]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 7.921957000 seconds]
+        [Time since previous frame in this TCP stream: 0.016871000 seconds]
+    TCP payload (461 bytes)
+Hypertext Transfer Protocol
+    GET /pearson.png HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/pearson.png]
+    [HTTP request 2/3]
+    [Prev request in frame: 1145]
+    [Response in frame: 1159]
+    [Next request in frame: 1271]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1156 506.891884     172.20.10.3           128.119.245.12        HTTP     529    GET /~kurose/cover_5th_ed.jpg HTTP/1.1 
+
+Frame 1156: 529 bytes on wire (4232 bits), 529 bytes captured (4232 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:59.395997000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474879.395997000 seconds
+    [Time delta from previous captured frame: 0.000887000 seconds]
+    [Time delta from previous displayed frame: 0.157808000 seconds]
+    [Time since reference or first frame: 506.891884000 seconds]
+    Frame Number: 1156
+    Frame Length: 529 bytes (4232 bits)
+    Capture Length: 529 bytes (4232 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 515
+    Identification: 0x894d (35149)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x440c [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51986, Dst Port: 80, Seq: 1, Ack: 1, Len: 475
+    Source Port: 51986
+    Destination Port: 80
+    [Stream index: 18]
+    [TCP Segment Len: 475]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 476    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 514
+    [Calculated window size: 131584]
+    [Window size scaling factor: 256]
+    Checksum: 0x58f5 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.144319000 seconds]
+        [Bytes in flight: 475]
+        [Bytes sent since last PSH flag: 475]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.145206000 seconds]
+        [Time since previous frame in this TCP stream: 0.000887000 seconds]
+    TCP payload (475 bytes)
+Hypertext Transfer Protocol
+    GET /~kurose/cover_5th_ed.jpg HTTP/1.1\r\n
+    Host: manic.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg]
+    [HTTP request 1/1]
+    [Response in frame: 1269]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1159 506.896012     128.119.245.12        172.20.10.3           HTTP     865    HTTP/1.1 200 OK  (PNG)
+
+Frame 1159: 865 bytes on wire (6920 bits), 865 bytes captured (6920 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:47:59.400125000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474879.400125000 seconds
+    [Time delta from previous captured frame: 0.000002000 seconds]
+    [Time delta from previous displayed frame: 0.004128000 seconds]
+    [Time since reference or first frame: 506.896012000 seconds]
+    Frame Number: 1159
+    Frame Length: 865 bytes (6920 bits)
+    Capture Length: 865 bytes (6920 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:png]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 851
+    Identification: 0xebe4 (60388)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 43
+    Protocol: TCP (6)
+    Header checksum: 0x7525 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51980, Seq: 3874, Ack: 985, Len: 811
+    Source Port: 80
+    Destination Port: 51980
+    [Stream index: 15]
+    [TCP Segment Len: 811]
+    Sequence number: 3874    (relative sequence number)
+    [Next sequence number: 4685    (relative sequence number)]
+    Acknowledgment number: 985    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 245
+    [Calculated window size: 31360]
+    [Window size scaling factor: 128]
+    Checksum: 0x3234 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.198487000 seconds]
+        [Bytes in flight: 3611]
+        [Bytes sent since last PSH flag: 3611]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 8.083893000 seconds]
+        [Time since previous frame in this TCP stream: 0.000002000 seconds]
+    TCP payload (811 bytes)
+    TCP segment data (811 bytes)
+[3 Reassembled TCP Segments (3611 bytes): #1157(1400), #1158(1400), #1159(811)]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Sat, 19 Oct 2019 08:47:58 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Last-Modified: Sat, 06 Aug 2016 10:08:14 GMT\r\n
+    ETag: "cc3-539645c7f1ee7"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 3267\r\n
+        [Content length: 3267]
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/png\r\n
+    \r\n
+    [HTTP response 2/3]
+    [Time since request: 0.161936000 seconds]
+    [Prev request in frame: 1145]
+    [Prev response in frame: 1149]
+    [Request in frame: 1151]
+    [Next request in frame: 1271]
+    [Next response in frame: 1272]
+    [Request URI: http://gaia.cs.umass.edu/pearson.png]
+    File Data: 3267 bytes
+Portable Network Graphics
+
+No.     Time           Source                Destination           Protocol Length Info
+   1269 507.504893     128.119.245.12        172.20.10.3           HTTP     572    HTTP/1.1 200 OK  (JPEG JFIF image)
+
+Frame 1269: 572 bytes on wire (4576 bits), 572 bytes captured (4576 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:48:00.009006000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474880.009006000 seconds
+    [Time delta from previous captured frame: 0.000003000 seconds]
+    [Time delta from previous displayed frame: 0.608881000 seconds]
+    [Time since reference or first frame: 507.504893000 seconds]
+    Frame Number: 1269
+    Frame Length: 572 bytes (4576 bits)
+    Capture Length: 572 bytes (4576 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:image-jfif]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 558
+    Identification: 0xa936 (43318)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 45
+    Protocol: TCP (6)
+    Header checksum: 0xb6f8 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51986, Seq: 100801, Ack: 476, Len: 518
+    Source Port: 80
+    Destination Port: 51986
+    [Stream index: 18]
+    [TCP Segment Len: 518]
+    Sequence number: 100801    (relative sequence number)
+    [Next sequence number: 101319    (relative sequence number)]
+    Acknowledgment number: 476    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x7da3 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.144319000 seconds]
+        [Bytes in flight: 3318]
+        [Bytes sent since last PSH flag: 101318]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.758215000 seconds]
+        [Time since previous frame in this TCP stream: 0.000003000 seconds]
+    TCP payload (518 bytes)
+    TCP segment data (518 bytes)
+[73 Reassembled TCP Segments (101318 bytes): #1162(1400), #1163(1400), #1164(1400), #1166(1400), #1167(1400), #1169(1400), #1171(1400), #1172(1400), #1174(1400), #1175(1400), #1177(1400), #1178(1400), #1180(1400), #1181(1400), #1183(1400), ]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Date: Sat, 19 Oct 2019 08:47:58 GMT\r\n
+    Server: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 mod_perl/2.0.10 Perl/v5.16.3\r\n
+    Last-Modified: Tue, 15 Sep 2009 18:23:27 GMT\r\n
+    ETag: "18a68-473a1e0e6e5c0"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 100968\r\n
+        [Content length: 100968]
+    Keep-Alive: timeout=5, max=100\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/jpeg\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.613009000 seconds]
+    [Request in frame: 1156]
+    [Request URI: http://manic.cs.umass.edu/~kurose/cover_5th_ed.jpg]
+    File Data: 100968 bytes
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+   1271 507.529194     172.20.10.3           128.119.245.12        HTTP     515    GET /favicon.ico HTTP/1.1 
+
+Frame 1271: 515 bytes on wire (4120 bits), 515 bytes captured (4120 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:48:00.033307000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474880.033307000 seconds
+    [Time delta from previous captured frame: 0.024179000 seconds]
+    [Time delta from previous displayed frame: 0.024301000 seconds]
+    [Time since reference or first frame: 507.529194000 seconds]
+    Frame Number: 1271
+    Frame Length: 515 bytes (4120 bits)
+    Capture Length: 515 bytes (4120 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f), Dst: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+    Destination: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 172.20.10.3, Dst: 128.119.245.12
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 501
+    Identification: 0x8973 (35187)
+    Flags: 0x4000, Don't fragment
+        0... .... .... .... = Reserved bit: Not set
+        .1.. .... .... .... = Don't fragment: Set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x43f4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 172.20.10.3
+    Destination: 128.119.245.12
+Transmission Control Protocol, Src Port: 51980, Dst Port: 80, Seq: 985, Ack: 4685, Len: 461
+    Source Port: 51980
+    Destination Port: 80
+    [Stream index: 15]
+    [TCP Segment Len: 461]
+    Sequence number: 985    (relative sequence number)
+    [Next sequence number: 1446    (relative sequence number)]
+    Acknowledgment number: 4685    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 514
+    [Calculated window size: 131584]
+    [Window size scaling factor: 256]
+    Checksum: 0x9acd [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.198487000 seconds]
+        [Bytes in flight: 461]
+        [Bytes sent since last PSH flag: 461]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 8.717075000 seconds]
+        [Time since previous frame in this TCP stream: 0.633078000 seconds]
+    TCP payload (461 bytes)
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Referer: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/favicon.ico]
+    [HTTP request 3/3]
+    [Prev request in frame: 1151]
+    [Response in frame: 1272]
+
+No.     Time           Source                Destination           Protocol Length Info
+   1272 507.692146     128.119.245.12        172.20.10.3           HTTP     559    HTTP/1.1 302 Found  (text/html)
+
+Frame 1272: 559 bytes on wire (4472 bits), 559 bytes captured (4472 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:48:00.196259000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571474880.196259000 seconds
+    [Time delta from previous captured frame: 0.162952000 seconds]
+    [Time delta from previous displayed frame: 0.162952000 seconds]
+    [Time since reference or first frame: 507.692146000 seconds]
+    Frame Number: 1272
+    Frame Length: 559 bytes (4472 bits)
+    Capture Length: 559 bytes (4472 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:data-text-lines]
+    [Coloring Rule Name: HTTP]
+    [Coloring Rule String: http || tcp.port == 80 || http2]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 128.119.245.12, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 545
+    Identification: 0xebe5 (60389)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 43
+    Protocol: TCP (6)
+    Header checksum: 0x7656 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.119.245.12
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 51980, Seq: 4685, Ack: 1446, Len: 505
+    Source Port: 80
+    Destination Port: 51980
+    [Stream index: 15]
+    [TCP Segment Len: 505]
+    Sequence number: 4685    (relative sequence number)
+    [Next sequence number: 5191    (relative sequence number)]
+    Acknowledgment number: 1446    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x019 (FIN, PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...1 = Fin: Set
+        [TCP Flags: ·······AP··F]
+    Window size value: 254
+    [Calculated window size: 32512]
+    [Window size scaling factor: 128]
+    Checksum: 0xeeaa [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 1271]
+        [The RTT to ACK the segment was: 0.162952000 seconds]
+        [iRTT: 0.198487000 seconds]
+        [Bytes in flight: 506]
+        [Bytes sent since last PSH flag: 505]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 8.880027000 seconds]
+        [Time since previous frame in this TCP stream: 0.162952000 seconds]
+    TCP payload (505 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 302 Found\r\n
+    Content-Type: text/html; charset=UTF-8\r\n
+    Content-Length: 248\r\n
+        [Content length: 248]
+    Location: http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico\r\n
+    Cache-Control: no-cache\r\n
+    Connection: Close\r\n
+    \r\n
+    [HTTP response 3/3]
+    [Time since request: 0.162952000 seconds]
+    [Prev request in frame: 1151]
+    [Prev response in frame: 1159]
+    [Request in frame: 1271]
+    [Request URI: http://gaia.cs.umass.edu/favicon.ico]
+    File Data: 248 bytes
+Line-based text data: text/html (1 lines)
+     [truncated]<html><head><title>302 Found</title></head><body><h1>302 Found</h1><p>The document has moved <a href="http://lp.kyivstar.net/error.html?msisdn=380672244375&error-code=404&request-url1=http://gaia.cs.umass.edu/favicon.ico">here
+
+No.     Time           Source                Destination           Protocol Length Info
+   1554 716.446038     84.53.167.196         172.20.10.3           HTTP/XML 373    [TCP ACKed unseen segment] HTTP/1.1 200 OK 
+
+Frame 1554: 373 bytes on wire (2984 bits), 373 bytes captured (2984 bits) on interface 0
+    Interface id: 0 (\Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695})
+        Interface name: \Device\NPF_{0EFDA7CA-9D7C-4454-837D-8FCD810B1695}
+        Interface description: \320\221\320\265\321\201\320\277\321\200\320\276\320\262\320\276\320\264\320\275\320\260\321\217 \321\201\320\265\321\202\321\214
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 19, 2019 11:51:28.950151000 Финляндия (лето)
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1571475088.950151000 seconds
+    [Time delta from previous captured frame: 0.000002000 seconds]
+    [Time delta from previous displayed frame: 208.753892000 seconds]
+    [Time since reference or first frame: 716.446038000 seconds]
+    Frame Number: 1554
+    Frame Length: 373 bytes (2984 bits)
+    Capture Length: 373 bytes (2984 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:xml]
+    [Coloring Rule Name: Bad TCP]
+    [Coloring Rule String: tcp.analysis.flags && !tcp.analysis.window_update]
+Ethernet II, Src: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64), Dst: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+    Destination: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        Address: ChiconyE_13:e5:8f (b0:c0:90:13:e5:8f)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        Address: 6a:43:7c:7b:33:64 (6a:43:7c:7b:33:64)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 84.53.167.196, Dst: 172.20.10.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 359
+    Identification: 0x3e25 (15909)
+    Flags: 0x0000
+        0... .... .... .... = Reserved bit: Not set
+        .0.. .... .... .... = Don't fragment: Not set
+        ..0. .... .... .... = More fragments: Not set
+        ...0 0000 0000 0000 = Fragment offset: 0
+    Time to live: 58
+    Protocol: TCP (6)
+    Header checksum: 0x8f5b [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 84.53.167.196
+    Destination: 172.20.10.3
+Transmission Control Protocol, Src Port: 80, Dst Port: 52081, Seq: 1401, Ack: 219, Len: 319
+    Source Port: 80
+    Destination Port: 52081
+    [Stream index: 21]
+    [TCP Segment Len: 319]
+    Sequence number: 1401    (relative sequence number)
+    [Next sequence number: 1720    (relative sequence number)]
+    Acknowledgment number: 219    (relative ack number)
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x76d9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent pointer: 0
+    [SEQ/ACK analysis]
+        [iRTT: 0.053675000 seconds]
+        [Bytes in flight: 1719]
+        [Bytes sent since last PSH flag: 1719]
+        [TCP Analysis Flags]
+    [Timestamps]
+        [Time since first frame in this TCP stream: 0.114423000 seconds]
+        [Time since previous frame in this TCP stream: 0.000002000 seconds]
+    TCP payload (319 bytes)
+    TCP segment data (319 bytes)
+[2 Reassembled TCP Segments (1719 bytes): #1553(1400), #1554(319)]
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+    Content-Type: text/xml; charset=utf-8\r\n
+    ETag: "2099054005"\r\n
+    Server: Microsoft-IIS/8.5\r\n
+    X-CS-DocVersions: |cms-amp-AAnUT6|27|\r\n
+    X-CMS-ExecutionTimeInMilliseconds: 18\r\n
+    AppEx-Activity-Id: ffa6ebe6-b637-4281-9f43-41b90676cf14\r\n
+    X-Trace-Context: {"ActivityId":"ffa6ebe6-b637-4281-9f43-41b90676cf14"}\r\n
+    X-AspNet-Version: 4.0.30319\r\n
+    X-Powered-By: ASP.NET\r\n
+    X-Diagnostic-S: Content_IN_25\r\n
+    X-Diagnostic-DC: northeu\r\n
+    Cache-Control: public, max-age=298\r\n
+    Date: Sat, 19 Oct 2019 08:51:27 GMT\r\n
+    Content-Length: 1179\r\n
+        [Content length: 1179]
+    Connection: keep-alive\r\n
+    \r\n
+    [HTTP response 1/1]
+    File Data: 1179 bytes
+eXtensible Markup Language
