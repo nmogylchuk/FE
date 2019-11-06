@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Noto+Serif&display=swap');
+
+@font-face {
+  font-family: 'Lora', serif;
+  src: url(../fonts/Lora/Lora-Regular.ttf);
+  src: url(../fonts/Lora/Lora-Italic.ttf)
+  src: url(../fonts/Lora/Lora-Bold.ttf);
+}
+
+@font-face {
+font-family: 'Noto Serif', serif;
+src: url(../fonts/Noto_Serif/NotoSerif-Regular.ttf);
+src: url(../fonts/Noto_Serif/NotoSerif-Italic.ttf);
+src: url(../fonts/Noto_Serif/NotoSerif-Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   height: 100%;
   width: 100%;
 }
