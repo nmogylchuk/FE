@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'Lora', serif;
-  src: url(../fonts/Lora/Lora-Regular.ttf);
-  src: url(../fonts/Lora/Lora-Italic.ttf)
-  src: url(../fonts/Lora/Lora-Bold.ttf);
+  src: url(../fonts/Lora/Lora-Regular.ttf) format("truetype");
+  src: url(../fonts/Lora/Lora-Italic.ttf) format("truetype");
+  src: url(../fonts/Lora/Lora-Bold.ttf) format("truetype");
 }
 
 @font-face {
 font-family: 'Noto Serif', serif;
-src: url(../fonts/Noto_Serif/NotoSerif-Regular.ttf);
-src: url(../fonts/Noto_Serif/NotoSerif-Italic.ttf);
-src: url(../fonts/Noto_Serif/NotoSerif-Bold.ttf);
+src: url(../fonts/Noto_Serif/NotoSerif-Regular.ttf) format("truetype");
+src: url(../fonts/Noto_Serif/NotoSerif-Italic.ttf) format("truetype");
+src: url(../fonts/Noto_Serif/NotoSerif-Bold.ttf) format("truetype");
 }
 
 * {
@@ -89,3 +89,8 @@ body {
 #breadcrumb li a:hover::after {
   border-left-color: #205092;
 }
+
+#breadcrumb li a:nth-last-child() {
+  border-left-color: #205092;
+}
+

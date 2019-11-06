@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: 'Libre Franklin', sans-serif;
-    src: url(../fonts/Libre_Franklin/LibreFranklin-Regular.ttf);
-    src: url(../fonts/Libre_Franklin/LibreFranklin-Italic.ttf);
-    src: url(../fonts/Libre_Franklin/LibreFranklin-Bold.ttf);
+    src: url(../fonts/Libre_Franklin/LibreFranklin-Regular.ttf) format("truetype");
+    src: url(../fonts/Libre_Franklin/LibreFranklin-Italic.ttf) format("truetype");
+    src: url(../fonts/Libre_Franklin/LibreFranklin-Bold.ttf) format("truetype");
 }
 
 @font-face {
     font-family: 'Nunito Sans', sans-serif;
-    src: url(../fonts/Nurino_Sans/NunitoSans-Regular.ttf);
-    src: url(../fonts/Nurino_Sans/NunitoSans-Italic.ttf);
-    src: url(../fonts/Nurino_Sans/NunitoSans-Bold.ttf);
+    src: url(../fonts/Nurino_Sans/NunitoSans-Regular.ttf) format("truetype");
+    src: url(../fonts/Nurino_Sans/NunitoSans-Italic.ttf) format("truetype");
+    src: url(../fonts/Nurino_Sans/NunitoSans-Bold.ttf) format("truetype");
 }
 
 * {

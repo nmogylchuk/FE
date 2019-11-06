@@ -2,16 +2,16 @@
 
 @font-face {
 font-family: 'Open Sans', sans-serif;
-src: url(../fonts/Roboto/Roboto-Light.ttf);
-src: url(../fonts/Roboto/Roboto-Italic.ttf);
-src: url(../fonts/Roboto/Roboto-Bold.ttf);
+src: url(../fonts/Roboto/Roboto-Light.ttf) format("truetype");
+src: url(../fonts/Roboto/Roboto-Italic.ttf) format("truetype");
+src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
 
 @font-face {
 font-family: "Roboto", sans-serif;
-src: url(../fonts/OpenSans/OpenSans-Light.ttf);
-src: url(../fonts/OpenSans/OpenSans-Italic.ttf);
-src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+src: url(../fonts/OpenSans/OpenSans-Light.ttf) format("truetype");
+src: url(../fonts/OpenSans/OpenSans-Italic.ttf) format("truetype");
+src: url(../fonts/OpenSans/OpenSans-Bold.ttf) format("truetype");
 }
 
 * {
