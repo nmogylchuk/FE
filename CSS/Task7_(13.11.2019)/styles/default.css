@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    scr: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+    scr: url(../fonts/Roboto/Roboto-Italic.ttf) format("truetype");
+    scr: url(../fonts/Roboto/Roboto-Light.ttf) format("truetype");
+    scr: url(../fonts/Roboto/Roboto-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Kaushan Script', cursive;
+    scr: url(../fonts/Kaushan/KaushanScript-Regular.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background: #ffe6ff;
+}
+
+/* header */
+
+header nav {
+    overflow-y: scroll;
+    width: 330px;
+    height: 610px;
+    padding: 3px;
+    white-space: nowrap;    
+}
+
+header h1 {
+    color: #FF1493;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+}
+
+header h2 {
+    font-size: 30px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+}
+
+nav ul {
+    width: 30%;
+}
+
+nav ul a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    background: #000000;
+    border-radius: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+
+nav ul a+a {
+    color: #000000;
+    font-style: italic;
+    font-size: 13px;
+    margin-bottom: 1px;
+    border-radius: 1px;
+    background: #FF1493;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 60px;
+    font-family: 'Kaushan Script', cursive;
+    line-height: 2.5;
+}
+
+nav ul a {
+    display: block;
+    transition: 0.4s;
+    text-transform: uppercase;
+    text-align: left;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    line-height: 2;
+    width: 300px;
+}
+
+nav li a:hover {
+    color: #FF1493;
+    transition: all 0.3s ease;
+    background: #ffffb3;
+}
+
+nav li a:focus, nav li a:active {
+    color: #ffcc00;
+}
+
+/*article */
+
+article h2 {
+    color: #FF1493;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive
+}
+
+article p {
+    text-align: center;
+    line-height: 2;
+    border: #000000;
+
+/* footer */
