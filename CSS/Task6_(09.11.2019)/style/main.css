@@ -50,12 +50,12 @@ img.header__logo, .header__name, .header__content1, .product, .size, .size__name
 }
 
 .header__name, .product__name {
-    font-size: 60px;
+    font-size: 1.7em;
 }
 
 .header__content2 {
     color: #B53737;
-    font-size: 300px;
+    font-size: 10em;
     opacity: 0.5;
 }
 
@@ -178,15 +178,15 @@ input[type="radio"]:not(:checked)+label:after {
 }
 
 .product__subtitle {
-    width: 100px;
+    width: 20%;
     top: -10px;
-    left: 550px;
-    font-size: 24px;
+    left: 370px;
+    font-size: 1em;
 }
 
 .price__name {
-    width: 500px;
-    top: -80px;
+    width: 40%;
+    top: -60px;
     left: 300px;
-    font-size: 50px;
+    font-size: 1em;
 }
