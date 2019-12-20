@@ -39,6 +39,3 @@ function recalculateRandomValue(counterValue) {
     var i = 100 - counterValue;
     return Math.floor(Math.random() * i + 1);
 }
-
-
-
