@@ -1,0 +1,12 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex__item {
+    margin: 0px 30px;
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+@font-face {
+font-family: 'Open Sans', sans-serif;
+src: url(../fonts/Roboto/Roboto-Light.ttf) format("truetype");
+src: url(../fonts/Roboto/Roboto-Italic.ttf) format("truetype");
+src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+font-family: "Roboto", sans-serif;
+src: url(../fonts/OpenSans/OpenSans-Light.ttf) format("truetype");
+src: url(../fonts/OpenSans/OpenSans-Italic.ttf) format("truetype");
+src: url(../fonts/OpenSans/OpenSans-Bold.ttf) format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.radio__button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    margin: 10px;
+}
+
+.radio__button input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]+label {
+    position: relative;
+    float: left;
+    color: #aaaaaa;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="radio"]+label:before {
+    content: "";
+    background: #fff;
+    border: 2px solid #008000;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input[type="radio"]:checked+label:after {
+    content: "";
+    background: #008000;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    transform: scale(3);
+}
+
+input[type="radio"]:not(:checked)+label:after {
+    opacity: 1;
+}

@@ -1,0 +1,13 @@
+table {
+    width: 500px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.table__td3-tr4 {
+    text-align: center;
+}

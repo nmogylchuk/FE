@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Noto+Serif&display=swap');
+
+@font-face {
+  font-family: 'Lora', serif;
+  src: url(../fonts/Lora/Lora-Regular.ttf) format("truetype");
+  src: url(../fonts/Lora/Lora-Italic.ttf) format("truetype");
+  src: url(../fonts/Lora/Lora-Bold.ttf) format("truetype");
+}
+
+@font-face {
+font-family: 'Noto Serif', serif;
+src: url(../fonts/Noto_Serif/NotoSerif-Regular.ttf) format("truetype");
+src: url(../fonts/Noto_Serif/NotoSerif-Italic.ttf) format("truetype");
+src: url(../fonts/Noto_Serif/NotoSerif-Bold.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#breadcrumb {
+  list-style-type: none;
+  display: flex;
+}
+
+#breadcrumb li a {
+  display: flex;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  background: #3682ec;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  margin: 12px;
+  padding: 0 10px 0 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#breadcrumb li:first-child a {
+  padding-left: 15px;
+  border-radius: 4px 0 0 4px;
+}
+
+#breadcrumb li:first-child a::before, #breadcrumb li:last-child a::after {
+  border: none;
+}
+
+#breadcrumb li a::before, #breadcrumb li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  border: 2px solid #3682ec;
+  border-width: 20px 10px;
+}
+
+#breadcrumb li:last-child a {
+  padding-right: 15px;
+  border-radius: 0 4px 4px 0;
+}
+
+#breadcrumb li a::before {
+  left: -20px;
+  border-left-color: transparent;
+}
+
+#breadcrumb li a::after {
+  left: 100%;
+  border-color: transparent;
+  border-left-color: #3682ec;
+}
+
+#breadcrumb li a:hover {
+  background: #205092;
+}
+
+#breadcrumb li a:hover::before {
+  border-color: #205092;
+  border-left-color: transparent;
+}
+
+#breadcrumb li a:hover::after {
+  border-left-color: #205092;
+}
+
+#breadcrumb li a:nth-last-child() {
+  border-left-color: #205092;
+}
+

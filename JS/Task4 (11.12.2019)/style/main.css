@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    border: 2px solid #111111;
+    width: 600px;
+    margin: auto;
+    border-radius: 12px;
+    background: #f1f1f1;
+}
+
+input[type="submit"] {
+    background: #ADFF2F;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid #111111;
+}
+
+
